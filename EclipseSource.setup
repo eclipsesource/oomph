@@ -95,7 +95,7 @@
       <repository
           url="http://download.eclipse.org/rt/rap/tools/3.0"/>
       <repository
-          url="http://eclipse-cs.sf.net/update"/>
+          url="http://sourceforge.net/projects/eclipse-cs/files/updatesite/6.5.0/"/>
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
