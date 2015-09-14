@@ -85,7 +85,7 @@
       <requirement
           name="org.eclipse.emf.ecp.view.mappingdmr.feature.source.feature.group"/>
       <requirement
-          name="org.eclipse.emfforms.view.annotation.feature.feature.group"/>
+          name="org.eclipse.emfforms.view.annotation.feature.source.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/mars"/>
       <repository
