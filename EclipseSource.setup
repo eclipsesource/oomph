@@ -7,6 +7,17 @@
     xmlns:setup.p2="http://www.eclipse.org/oomph/setup/p2/1.0"
     name="eclipsesource"
     label="EclipseSource">
+  <annotation
+      source="http://www.eclipse.org/oomph/setup/BrandingInfo">
+    <detail
+        key="folderName">
+      <value>eclipse</value>
+    </detail>
+    <detail
+        key="folderName.macosx">
+      <value>Eclipse</value>
+    </detail>
+  </annotation>
   <setupTask
       xsi:type="setup.p2:P2Task">
     <requirement
@@ -14,29 +25,37 @@
     <repository
         url="${oomph.update.url}"/>
   </setupTask>
+  <setupTask
+      xsi:type="setup:EclipseIniTask"
+      option="-Xmx"
+      value="2048m"
+      vm="true"/>
+  <setupTask
+      xsi:type="setup:InstallationTask"
+      id="installation"/>
+  <setupTask
+      xsi:type="setup:CompoundTask"
+      name="preferences">
+    <setupTask
+        xsi:type="setup:PreferenceTask"
+        key="/instance/org.eclipse.ui.editors/lineNumberRuler"
+        value="true"/>
+    <setupTask
+        xsi:type="setup:PreferenceTask"
+        key="/instance/org.eclipse.core.resources/refresh.enabled"
+        value="true"/>
+    <setupTask
+        xsi:type="setup:PreferenceTask"
+        key="/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.typefilter.enabled"
+        value="java.awt.*;"/>
+    <setupTask
+        xsi:type="setup:PreferenceTask"
+        key="/instance/org.eclipse.core.resources/encoding"
+        value="UTF-8"/>
+  </setupTask>
   <version name="mars"
       label="Mars"
       requiredJavaVersion="1.7">
-    <setupTask
-        xsi:type="setup:CompoundTask"
-        name="preferences">
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.ui.editors/lineNumberRuler"
-          value="true"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.core.resources/refresh.enabled"
-          value="true"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.jdt.ui/org.eclipse.jdt.ui.typefilter.enabled"
-          value="java.awt.*;"/>
-      <setupTask
-          xsi:type="setup:PreferenceTask"
-          key="/instance/org.eclipse.core.resources/encoding"
-          value="UTF-8"/>
-    </setupTask>
     <setupTask
         xsi:type="setup.p2:P2Task"
         id="modeling"
@@ -103,10 +122,6 @@
       <repository
           url="http://www.wuetherich.com/ds-annotations/update"/>
     </setupTask>
-    <setupTask
-        xsi:type="setup:EclipseIniTask"
-        option="-Xmx"
-        value="2048m"
-        vm="true"/>
   </version>
+  <description>To make your life easier, we at EclipseSource would like to share our experience with the Eclipse IDE by sharing our standard settings and installed plug-ins with you. Of course, we sometimes use different settings for different projects, so this is kind of the common denominator and our starting point for new projects. To make this more useful, we will also describe the settings we apply and the plug-ins we install in a blog series.: http://eclipsesource.com/blogs/2015/08/17/introducing-the-eclipsesource-oomph-profile/</description>
 </setup:Product>
