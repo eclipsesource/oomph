@@ -107,6 +107,8 @@
           name="org.eclipse.emfforms.view.annotation.feature.source.feature.group"/>
       <requirement
           name="org.eclipse.emfforms.editor.feature.source.feature.group"/>
+      <requirement
+          name="org.eclipse.xtend.sdk.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/mars"/>
       <repository
