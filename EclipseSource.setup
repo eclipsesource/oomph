@@ -112,7 +112,7 @@
       <repository
           url="http://download.eclipse.org/releases/mars"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/mars"/>
+          url="http://download.eclipse.org/technology/epp/packages/mars.oomph"/>
       <repository
           url="http://download.eclipse.org/ecp/releases/releases_target_18"/>
       <repository
