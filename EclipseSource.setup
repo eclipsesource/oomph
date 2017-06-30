@@ -235,13 +235,11 @@
       <requirement
           name="org.eclipse.xtend.sdk.feature.group"/>
       <repository
-          url="http://download.eclipse.org/releases/neon"/>
+          url="http://download.eclipse.org/releases/oxygen"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/neon"/>
+          url="http://download.eclipse.org/technology/epp/packages/oxygen"/>
       <repository
-          url="http://download.eclipse.org/ecp/releases/releases_target_111/"/>
-      <repository
-          url="http://download.eclipse.org/rt/rap/tools/3.0"/>
+          url="http://download.eclipse.org/rt/rap/tools/3.2"/>
       <repository
           url="http://eclipse-cs.sf.net/update"/>
       <repository
