@@ -52,7 +52,13 @@
         xsi:type="setup:PreferenceTask"
         key="/instance/org.eclipse.core.resources/encoding"
         value="UTF-8"/>
+    <setupTask
+        xsi:type="setup:PreferenceTask"
+        key="/instance/org.eclipse.pde.ui/Preferences.MainPage.addToJavaSearch"
+        value="true">
   </setupTask>
+  
+   
   <setupTask
       xsi:type="setup:ResourceCreationTask"
       excludedTriggers="STARTUP MANUAL"
