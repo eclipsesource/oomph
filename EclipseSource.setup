@@ -55,7 +55,7 @@
     <setupTask
         xsi:type="setup:PreferenceTask"
         key="/instance/org.eclipse.pde.ui/Preferences.MainPage.addToJavaSearch"
-        value="true">
+        value="true"/>
   </setupTask>
   
    
