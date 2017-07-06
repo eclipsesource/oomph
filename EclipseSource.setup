@@ -245,7 +245,7 @@
       <repository
           url="http://eclipse.pitest.org/release"/>
             <repository
-          url="http://download.eclipse.org/ecp/releases/releases_113/"/>
+          url="http://download.eclipse.org/ecp/releases/releases_113"/>
           
 
     </setupTask>
