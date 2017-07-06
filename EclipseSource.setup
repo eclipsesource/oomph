@@ -203,7 +203,7 @@
       <requirement
           name="org.eclipse.xsd.sdk.feature.group"/>
       <requirement
-          name="com.mountainminds.eclemma.feature.feature.group"/>
+          name="org.eclipse.eclemma.feature.feature.group"/>
       <requirement
           name="net.sf.eclipsecs.feature.group"/>
       <requirement
@@ -244,8 +244,6 @@
           url="http://eclipse-cs.sf.net/update"/>
       <repository
           url="http://eclipse.pitest.org/release"/>
-      <repository
-          url="http://update.eclemma.org"/>
     </setupTask>
     <description></description>
   </version>
