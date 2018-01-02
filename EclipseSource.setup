@@ -234,6 +234,8 @@
           name="org.eclipse.emfforms.editor.feature.source.feature.group"/>
       <requirement
           name="org.eclipse.xtend.sdk.feature.group"/>
+      <requirement
+          name="org.eclipse.fx.ide.feature.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/oxygen"/>
       <repository
