@@ -243,7 +243,7 @@
       <repository
           url="http://download.eclipse.org/rt/rap/tools/3.2"/>
       <repository
-          url="http://eclipse-cs.sf.net/update"/>
+          url="https://checkstyle.github.io/eclipse-cs/update"/>
       <repository
           url="http://eclipse.pitest.org/release"/>
             <repository
