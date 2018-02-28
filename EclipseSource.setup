@@ -236,6 +236,10 @@
           name="org.eclipse.xtend.sdk.feature.group"/>
       <requirement
           name="org.eclipse.fx.ide.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.emf.edapt.recorder.feature.feature.group"/>
+      <requirement
+          name="org.eclipse.emf.edapt.runtime.feature.feature.group"/>
       <repository
           url="http://download.eclipse.org/releases/oxygen"/>
       <repository
@@ -246,8 +250,10 @@
           url="https://checkstyle.github.io/eclipse-cs/update"/>
       <repository
           url="http://eclipse.pitest.org/release"/>
-            <repository
+      <repository
           url="http://download.eclipse.org/ecp/releases/releases_113"/>
+      <repository
+          url="http://download.eclipse.org/edapt/releases/13x"/>
           
 
     </setupTask>
