@@ -240,6 +240,8 @@
           name="org.eclipse.emf.edapt.recorder.feature.feature.group"/>
       <requirement
           name="org.eclipse.emf.edapt.runtime.feature.feature.group"/>
+      <requirement
+          name="fr.obeo.releng.targetplatform-feature.feature.group"/>     
       <repository
           url="http://download.eclipse.org/releases/oxygen"/>
       <repository
@@ -254,6 +256,9 @@
           url="http://download.eclipse.org/ecp/releases/releases_116/"/>
       <repository
           url="http://download.eclipse.org/edapt/releases/13x"/>
+      <repository
+          url="http://mbarbero.github.io/fr.obeo.releng.targetplatform/p2/"/>
+
           
 
     </setupTask>
