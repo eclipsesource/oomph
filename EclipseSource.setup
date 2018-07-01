@@ -243,11 +243,11 @@
       <requirement
           name="fr.obeo.releng.targetplatform-feature.feature.group"/>     
       <repository
-          url="http://download.eclipse.org/releases/oxygen"/>
+          url="http://download.eclipse.org/releases/photon"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/oxygen"/>
+          url="http://download.eclipse.org/technology/epp/packages/photon"/>
       <repository
-          url="http://download.eclipse.org/rt/rap/tools/3.2"/>
+          url="http://download.eclipse.org/rt/rap/tools/3.5"/>
       <repository
           url="https://checkstyle.github.io/eclipse-cs/update"/>
       <repository
