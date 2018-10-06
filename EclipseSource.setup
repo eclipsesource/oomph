@@ -243,11 +243,11 @@
       <requirement
           name="org.eclipse.cbi.targetplatform-feature.feature.group"/>
       <repository
-          url="http://download.eclipse.org/releases/photon"/>
+          url="http://download.eclipse.org/releases/2018-09"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/photon"/>
+          url="http://download.eclipse.org/technology/epp/packages/2018-09"/>
       <repository
-          url="http://download.eclipse.org/rt/rap/tools/3.5"/>
+          url="http://download.eclipse.org/rt/rap/tools/3.6"/>
       <repository
           url="https://checkstyle.github.io/eclipse-cs/update"/>
       <repository
