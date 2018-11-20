@@ -253,7 +253,7 @@
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
-          url="http://download.eclipse.org/ecp/releases/releases_118/"/>
+          url="http://download.eclipse.org/ecp/releases/releases_119/"/>
       <repository
           url="http://download.eclipse.org/edapt/releases/13x"/>
       <repository
