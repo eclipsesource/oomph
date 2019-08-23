@@ -254,11 +254,8 @@
           url="http://download.eclipse.org/edapt/releases/13x"/>
       <repository
           url="http://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
-        
       <repository
-          url="http://download.eclipse.org/efxclipse/updates-released/3.5.0/site/"/>
-        
-    
+          url="http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/"/>
     </setupTask>
     <description></description>
   </version>
