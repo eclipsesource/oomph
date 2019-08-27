@@ -57,8 +57,6 @@
         key="/instance/org.eclipse.pde.ui/Preferences.MainPage.addToJavaSearch"
         value="true"/>
   </setupTask>
-  
-   
   <setupTask
       xsi:type="setup:ResourceCreationTask"
       excludedTriggers="STARTUP MANUAL"
@@ -249,9 +247,9 @@
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
-          url="https://download.eclipse.org/ecp/releases/releases_target_121/"/>
+          url="https://download.eclipse.org/ecp/releases/releases_target_122/"/>
       <repository
-          url="http://download.eclipse.org/edapt/releases/13x"/>
+          url="http://download.eclipse.org/edapt/releases/14x"/>
       <repository
           url="http://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
       <repository
@@ -259,7 +257,5 @@
     </setupTask>
     <description></description>
   </version>
-
-  
   <description>To make your life easier, we at EclipseSource would like to share our experience with the Eclipse IDE by sharing our standard settings and installed plug-ins with you. Of course, we sometimes use different settings for different projects, so this is kind of the common denominator and our starting point for new projects. To make this more useful, we will also describe the settings we apply and the plug-ins we install in a blog series.: http://eclipsesource.com/blogs/2015/08/17/introducing-the-eclipsesource-oomph-profile/</description>
 </setup:Product>
