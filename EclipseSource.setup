@@ -239,7 +239,7 @@
       <repository
           url="http://download.eclipse.org/releases/2019-06"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/2019-06"/>
+          url="http://download.eclipse.org/technology/epp/packages/2019-09"/>
       <repository
           url="http://download.eclipse.org/rt/rap/tools/3.9"/>
       <repository
