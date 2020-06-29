@@ -237,11 +237,11 @@
       <requirement
           name="org.eclipse.cbi.targetplatform-feature.feature.group"/>
       <repository
-          url="http://download.eclipse.org/releases/2019-12"/>
+          url="http://download.eclipse.org/releases/2020-06"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/2019-12"/>
+          url="http://download.eclipse.org/technology/epp/packages/2020-06"/>
       <repository
-          url="http://download.eclipse.org/rt/rap/tools/3.9"/>
+          url="http://download.eclipse.org/rt/rap/tools/3.13"/>
       <repository
           url="https://checkstyle.github.io/eclipse-cs/update"/>
       <repository
