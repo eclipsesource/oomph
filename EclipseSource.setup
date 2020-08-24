@@ -151,8 +151,6 @@
       <requirement
           name="org.eclipse.emf.ecoretools.design.feature.group"/>
       <requirement
-          name="org.eclipse.emf.ecp.sdk.feature.feature.group"/>
-      <requirement
           name="org.eclipse.emf.emfstore.sdk.feature.feature.group"/>
       <requirement
           name="org.eclipse.emf.parsley.sdk.feature.group"/>
@@ -247,7 +245,7 @@
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
-          url="https://download.eclipse.org/ecp/releases/releases_target_124/"/>
+          url="https://download.eclipse.org/ecp/releases/releases_target_125/"/>
       <repository
           url="http://download.eclipse.org/edapt/releases/14x"/>
       <repository
