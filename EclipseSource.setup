@@ -151,6 +151,10 @@
       <requirement
           name="org.eclipse.emf.ecoretools.design.feature.group"/>
       <requirement
+          name="org.eclipse.emf.ecp.sdk.feature.feature.group"
+          optional="true"
+          max="0"/>
+      <requirement
           name="org.eclipse.emf.emfstore.sdk.feature.feature.group"/>
       <requirement
           name="org.eclipse.emf.parsley.sdk.feature.group"/>
