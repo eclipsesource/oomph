@@ -61,8 +61,17 @@
       xsi:type="setup:ResourceCreationTask"
       excludedTriggers="STARTUP MANUAL"
       filter="(osgi.os=linux)"
-      content="[Desktop Entry]&#xA;Type=Application&#xA;Name=${scope.product.label} - ${scope.product.version.label}&#xA;Exec=${product.location/}eclipse&#xA;Icon=${product.location/}icon.xpm&#xA;Terminal=false&#xA;Categories=Development;IDE;"
-      targetURL="${product.location|uri}/eclipse.desktop"/>
+      targetURL="${product.location|uri}/eclipse.desktop">
+    <content>
+      [Desktop Entry]
+      Type=Application
+      Name=${scope.product.label} - ${scope.product.version.label}
+      Exec=${product.location/}eclipse
+      Icon=${product.location/}icon.xpm
+      Terminal=false
+      Categories=Development;IDE;
+    </content>
+  </setupTask>
   <setupTask
       xsi:type="setup:VariableTask"
       name="product.location"
@@ -249,7 +258,7 @@
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
-          url="https://download.eclipse.org/ecp/releases/releases_target_125/"/>
+          url="https://download.eclipse.org/ecp/releases/releases_target_126/"/>
       <repository
           url="http://download.eclipse.org/edapt/releases/14x"/>
       <repository
