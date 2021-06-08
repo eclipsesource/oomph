@@ -254,7 +254,7 @@
       <repository
           url="http://download.eclipse.org/rt/rap/tools/3.13"/>
       <repository
-          url="https://checkstyle.github.io/eclipse-cs/update"/>
+          url="https://checkstyle.org/eclipse-cs-update-site"/>
       <repository
           url="http://eclipse.pitest.org/release"/>
       <repository
