@@ -248,11 +248,11 @@
       <requirement
           name="org.eclipse.cbi.targetplatform-feature.feature.group"/>
       <repository
-          url="http://download.eclipse.org/releases/2021-03"/>
+          url="http://download.eclipse.org/releases/2022-06"/>
       <repository
-          url="http://download.eclipse.org/technology/epp/packages/2021-03"/>
+          url="http://download.eclipse.org/technology/epp/packages/2022-06"/>
       <repository
-          url="http://download.eclipse.org/rt/rap/tools/3.13"/>
+          url="http://download.eclipse.org/rt/rap/tools/3.21"/>
       <repository
           url="https://checkstyle.org/eclipse-cs-update-site"/>
       <repository
@@ -260,11 +260,11 @@
       <repository
           url="https://download.eclipse.org/ecp/releases/releases_target_126/"/>
       <repository
-          url="http://download.eclipse.org/edapt/releases/14x"/>
+          url="http://download.eclipse.org/edapt/releases/15x"/>
       <repository
           url="http://download.eclipse.org/cbi/tpd/3.0.0-SNAPSHOT/"/>
       <repository
-          url="http://download.eclipse.org/efxclipse/updates-released/3.6.0/site/"/>
+          url="http://download.eclipse.org/efxclipse/updates-released/3.8.0/site/"/>
     </setupTask>
     <description></description>
   </version>
